@@ -13,15 +13,15 @@
         android:theme="@style/Theme.IMADASSIGNMENT2"
         tools:targetApi="31">
         <activity
+            android:name=".ScoreActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".FlashcardActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
             android:name=".CountdownActivity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".ScoreActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity

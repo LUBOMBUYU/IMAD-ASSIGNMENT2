@@ -29,6 +29,7 @@ class FlashcardActivity : AppCompatActivity() {
         val btnNext = findViewById<ImageButton>(R.id.btnINext)
 
         // Create the flashcard questions and answers
+        // Questions where genereated by ChatGPT, Prompt: Please give me 5 true or false questions about Africa.
         val questions = arrayListOf(
             "The Great Zimbabwe ruins were built by the Shona people.",
             "Ethiopia was never colonized by a European power.",
