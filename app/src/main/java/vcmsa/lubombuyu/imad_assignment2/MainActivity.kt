@@ -1,4 +1,4 @@
-package vcmsa.lubombuyu.assignment2prac
+package vcmsa.lubombuyu.imad_assignment2
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import vcmsa.lubombuyu.imad_assignment2.CountdownActivity
 import vcmsa.lubombuyu.imad_assignment2.R
 
 class MainActivity : AppCompatActivity() {

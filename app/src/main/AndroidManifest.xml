@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vcmsa.lubombuyu.imad_assignment2">
 
     <application
         android:allowBackup="true"
@@ -12,28 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMADASSIGNMENT2"
         tools:targetApi="31">
+
         <activity
-            android:name=".ScoreActivity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".FlashcardActivity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".CountdownActivity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MainActivity"
+            android:name="vcmsa.lubombuyu.imad_assignment2.MainActivity"
             android:exported="true"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="vcmsa.lubombuyu.imad_assignment2.FlashcardActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="MissingClass" />
+
+        <activity
+            android:name="vcmsa.lubombuyu.imad_assignment2.ScoreActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="MissingClass" />
+
+        <activity
+            android:name="vcmsa.lubombuyu.imad_assignment2.CountdownActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="MissingClass" />
+
     </application>
 
 </manifest>

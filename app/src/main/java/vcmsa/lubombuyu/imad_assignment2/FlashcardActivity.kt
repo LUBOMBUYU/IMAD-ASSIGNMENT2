@@ -1,6 +1,5 @@
-package vcmsa.lubombuyu.assignment2prac
+package vcmsa.lubombuyu.imad_assignment2
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.os.Bundle
@@ -8,11 +7,10 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import vcmsa.lubombuyu.imad_assignment2.R
 
 class FlashcardActivity : AppCompatActivity() {
 
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

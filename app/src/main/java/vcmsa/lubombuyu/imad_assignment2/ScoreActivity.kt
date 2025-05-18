@@ -1,5 +1,6 @@
-package vcmsa.lubombuyu.assignment2prac
+package vcmsa.lubombuyu.imad_assignment2
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -9,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.pm.ActivityInfo
-import vcmsa.lubombuyu.imad_assignment2.R
 
 class ScoreActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
@@ -50,7 +51,7 @@ class ScoreActivity : AppCompatActivity() {
 
         // When "Retake" is clicked, restart the quiz by launching FlashcardActivity
         btnRetake.setOnClickListener {
-            val intent = Intent(this, FlashcardActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish() // Close the current screen
         }
