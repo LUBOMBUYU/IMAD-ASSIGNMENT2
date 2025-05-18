@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Optional Secondary -->
+    <color name="info_text">#FFB0BEC5</color>          <!-- Light grey for subtext or disabled states -->
+    <color name="countdown_bg_contrast">#FF004D40</color>  <!-- Very dark teal -->
+    <color name="count1">#FF004D40</color>  <!-- dark teal -->
+    <color name="count2">#FF00695C</color>  <!-- slightly lighter -->
+    <color name="count3">#FF00897B</color>
+    <color name="count4">#FF26A69A</color>
+    <color name="count5">#FF80CBC4</color>  <!-- pale teal -->
+    <color name="goColor">#FFFFC107</color> <!-- amber for “Go!” -->
+    <color name="brown">#FF4E342E</color>
 </resources>
