@@ -11,7 +11,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import vcmsa.lubombuyu.assignment2prac.R.id.main
+import vcmsa.lubombuyu.imad_assignment2.FlashcardActivity
 import vcmsa.lubombuyu.imad_assignment2.R
 
 class CountdownActivity : AppCompatActivity() {
@@ -23,11 +23,12 @@ class CountdownActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Draw behind status & nav bars
+
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_countdown)
 
         // Find views
+        val main = 0
         root = findViewById(main)
         countdownText = findViewById(R.id.cdTxt1)
 
