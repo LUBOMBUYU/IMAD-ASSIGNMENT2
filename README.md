@@ -26,7 +26,7 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
   - Feedback text (e.g., “Keep practicing!”)
 - Two buttons: **Retake Quiz** and **Exit**
 
-![Image](https://github.com/user-attachments/assets/dcdab94e-898e-423e-8865-f8de5ec72edf)
+![Image](https://github.com/user-attachments/assets/b05b7532-2fb5-4f0a-a4af-4c7207eb0232)
 
 ## 🧩 Features
 
@@ -39,6 +39,8 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 
 ## 🚧 Planned Feature: Countdown Timer
 The app after teh start button is pressed will show a countdown to get the users ready for the quiz.
+
+![Image](https://github.com/user-attachments/assets/06051736-865b-4165-ab07-b5522ac1d01c)
 
 ## 🚀 Getting Started
 
