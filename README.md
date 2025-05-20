@@ -8,7 +8,7 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 - Displays the vibrant "History Flash" logo
 - Contains a **Start Quiz** button and info icon
 
-- https://github.com/LUBOMBUYU/IMAD-ASSIGNMENT2/issues/1#issue-3076186373
+![Image](https://github.com/user-attachments/assets/0c00d2a3-3db3-491a-aca0-d47b5efa59d6)
 
 ### 2. Flashcard Question Screen
 - Central panel displays the current question
@@ -17,7 +17,7 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 - Decorative classical imagery sets a thematic background
 - A countdown timer feature is planned to add time-based challenge to each question
 
-- ![Image](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
+  ![Image](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
 
 ### 3. Score Screen
 - Displays:
