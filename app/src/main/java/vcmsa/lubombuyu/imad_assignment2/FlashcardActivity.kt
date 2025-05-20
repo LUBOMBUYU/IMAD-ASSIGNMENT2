@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class FlashcardActivity : AppCompatActivity() {
@@ -65,6 +66,14 @@ class FlashcardActivity : AppCompatActivity() {
             usedQuestions.add(currentQuestion)
             usedAnswers.add(currentAnswer)
 
+            // Show Toast
+            if (true == currentAnswer) {
+                Toast.makeText(this, "Correct!", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, "Incorrect! Correct answer is False.", Toast.LENGTH_LONG)
+                    .show()
+            }
+
             btnTrue.isEnabled = false
             btnFalse.isEnabled = false
             btnNext.isEnabled = true
@@ -75,6 +84,13 @@ class FlashcardActivity : AppCompatActivity() {
             userAnswers.add(false)
             usedQuestions.add(currentQuestion)
             usedAnswers.add(currentAnswer)
+
+            // Show Toast
+            if (false == currentAnswer) {
+                Toast.makeText(this, "Correct!", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, "Incorrect! Correct answer is True.", Toast.LENGTH_LONG).show()
+            }
 
             btnTrue.isEnabled = false
             btnFalse.isEnabled = false
@@ -105,9 +121,14 @@ class FlashcardActivity : AppCompatActivity() {
                 val intent = Intent(this, ScoreActivity::class.java)
                 intent.putExtra("correct", score)
                 intent.putExtra("total", usedAnswers.size)
+                intent.putStringArrayListExtra("questions", usedQuestions)
+                intent.putExtra("correctAnswers", usedAnswers.toBooleanArray())
+                intent.putExtra("userAnswers", userAnswers.toBooleanArray())
                 startActivity(intent)
                 finish()
+
             }
         }
     }
 }
+

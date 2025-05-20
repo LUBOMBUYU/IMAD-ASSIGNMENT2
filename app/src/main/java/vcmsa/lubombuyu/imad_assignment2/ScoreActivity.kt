@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -47,6 +48,26 @@ class ScoreActivity : AppCompatActivity() {
             percentage >= 80 -> "Great job! Keep it up!"                      // 80%–99%
             percentage >= 50 -> "Good effort, but review your mistakes."      // 50%–79%
             else -> "Keep practicing!"                                        // Below 50%
+        }
+        // Button to review answers for user
+        val btnReview = findViewById<Button>(R.id.btnReview)
+        btnReview.setOnClickListener {
+            val correctAnswers = intent.getBooleanArrayExtra("correctAnswers")
+
+            if (correctAnswers != null) {
+                val toastMessage = StringBuilder()
+                for (i in correctAnswers.indices) {
+                    val answerText = if (correctAnswers[i]) "true" else "false"
+                    toastMessage.append("Q${i + 1}. is $answerText, ")
+                }
+
+                // Trim the last comma and space
+                val finalMessage = toastMessage.toString().trim().removeSuffix(",")
+
+                Toast.makeText(this, finalMessage, Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, "No answers to review.", Toast.LENGTH_SHORT).show()
+            }
         }
 
         // When "Retake" is clicked, restart the quiz by launching FlashcardActivity
