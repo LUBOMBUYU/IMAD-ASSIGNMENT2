@@ -41,7 +41,7 @@ class CountdownActivity : AppCompatActivity() {
             1 to R.color.count1
         )
 
-        var current = 5
+        var current = 6
         // Code was made by chatgpt
         // Set initial state before countdown begins
         countdownText.text = current.toString()
@@ -52,7 +52,7 @@ class CountdownActivity : AppCompatActivity() {
 
             override fun onTick(millisUntilFinished: Long) {
                 current--
-                if (current >= 1) {
+                if (current >= 0) {
                     countdownText.text = current.toString()
                     val colorRes = colorMap[current] ?: R.color.count1
                     root.setBackgroundColor(ContextCompat.getColor(this@CountdownActivity, colorRes))
