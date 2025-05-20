@@ -8,6 +8,8 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 - Displays the vibrant "History Flash" logo
 - Contains a **Start Quiz** button and info icon
 
+- https://github.com/LUBOMBUYU/IMAD-ASSIGNMENT2/issues/1#issue-3076186373
+
 ### 2. Flashcard Question Screen
 - Central panel displays the current question
 - Two large **True** and **False** buttons for user input
@@ -15,12 +17,16 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 - Decorative classical imagery sets a thematic background
 - A countdown timer feature is planned to add time-based challenge to each question
 
+- ![Image](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
+
 ### 3. Score Screen
 - Displays:
   - Score (e.g., `Score: 5/10`)
   - Percentage (e.g., `Percentage: 50%`)
   - Feedback text (e.g., “Keep practicing!”)
 - Two buttons: **Retake Quiz** and **Exit**
+
+![Image](https://github.com/user-attachments/assets/dcdab94e-898e-423e-8865-f8de5ec72edf)
 
 ## 🧩 Features
 
@@ -32,13 +38,13 @@ History Flash is an interactive quiz app designed to help users learn and reinfo
 - Audio support (mute/unmute icon)
 
 ## 🚧 Planned Feature: Countdown Timer
-Each flashcard question will include a visible countdown (e.g., 10 seconds), encouraging quick thinking and adding a fun challenge. If the timer runs out, the question will automatically move to the next one and count as incorrect.
+The app after teh start button is pressed will show a countdown to get the users ready for the quiz.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Android Studio (for Android development)
-- Kotlin or Java (based on your implementation)
+- Kotlin 
 
 ### Installation
 1. Clone the repository:
