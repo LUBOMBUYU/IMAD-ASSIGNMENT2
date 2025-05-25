@@ -1,52 +1,106 @@
-# History Flash
+# 🏛️ History Flash
 
-History Flash is an interactive quiz app designed to help users learn and reinforce their knowledge of history using engaging flashcards and a vibrant user interface.
+**History Flash** is an interactive native Android quiz app built with **Kotlin** in **Android Studio**. It helps users reinforce their history knowledge through a fun, engaging flashcard system. Users answer true/false questions, receive immediate feedback, and get a final score and review screen.
+
+---
 
 ## 📸 Screenshots
 
 ### 1. Start Menu
-- Displays the vibrant "History Flash" logo
-- Contains a **Start Quiz** button and info icon
+- Displays the vibrant **History Flash** logo.
+- Contains a **Start Quiz** button and info icon.
 
-![Image](https://github.com/user-attachments/assets/0c00d2a3-3db3-491a-aca0-d47b5efa59d6)
+![Start Menu](https://github.com/user-attachments/assets/0c00d2a3-3db3-491a-aca0-d47b5efa59d6)
+
+---
 
 ### 2. Flashcard Question Screen
-- Central panel displays the current question
-- Two large **True** and **False** buttons for user input
-- A **Next** button and sound toggle option
-- Decorative classical imagery sets a thematic background
-- A countdown timer feature is planned to add time-based challenge to each question
+- Shows a question in a central panel.
+- **True** and **False** buttons for user input.
+- **Next** button and a sound toggle icon.
+- Background features classical decorative imagery.
+- A **countdown timer** is planned for added challenge.
 
-  ![Image](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
+![Flashcard Screen](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
+
+---
 
 ### 3. Score Screen
 - Displays:
-  - Score (e.g., `Score: 5/10`)
-  - Percentage (e.g., `Percentage: 50%`)
-  - Feedback text (e.g., “Keep practicing!”)
-- Two buttons: **Retake Quiz** and **Exit**
+  - Final Score (e.g., `Score: 5/5`)
+  - Percentage (e.g., `Percentage: 100%`)
+  - Feedback (e.g., “Great job!” or “Keep practicing!”)
+- **Retake Quiz** and **Exit** buttons.
 
-![Image](https://github.com/user-attachments/assets/b05b7532-2fb5-4f0a-a4af-4c7207eb0232)
+![Score Screen](https://github.com/user-attachments/assets/b05b7532-2fb5-4f0a-a4af-4c7207eb0232)
 
-## 🧩 Features
+---
 
-- True/False historical trivia
-- Animated and themed UI based on classical and historical imagery
-- Final score calculation and feedback
-- Planned countdown timer for each question
-- Responsive UI elements
-- Audio support (mute/unmute icon)
+## 🧠 Features
 
-## 🚧 Planned Feature: Countdown Timer
-The app after teh start button is pressed will show a countdown to get the users ready for the quiz.
+- ✅ True/False flashcard quiz format
+- ✅ Live feedback after each question
+- ✅ Final score and feedback message
+- ✅ Review screen with correct answers
+- ✅ Vibrant themed UI (history/classical)
+- ✅ Sound toggle (mute/unmute)
+- 🔜 **Planned**: Countdown timer per question
 
-![Image](https://github.com/user-attachments/assets/06051736-865b-4165-ab07-b5522ac1d01c)
+---
 
-## 🚀 Getting Started
+## ⏳ Planned Feature
+
+### Countdown Timer
+Once the user presses the **Start** button, a countdown will begin to prepare the user for the first flashcard. This feature will enhance the user experience by adding time-based pressure.
+
+![Timer Mockup](https://github.com/user-attachments/assets/06051736-865b-4165-ab07-b5522ac1d01c)
+
+---
+
+## 📁 GitHub Repository
+
+🔗 [https://github.com/yourusername/history-flash](https://github.com/yourusername/history-flash)
+
+> 💡 *Please ensure this link is active and public or unlisted (not private) before submission.*
+
+---
+
+## 🎥 Video Demonstration
+
+📺 [Click here to watch the full demo on YouTube](https://youtu.be/ktm1-UCHcW8)
+
+The video walks through:
+- Starting the app
+- Answering questions
+- Navigating between screens
+- Reviewing final results
+- Commentary on design, GitHub, and logic decisions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Kotlin**
+- **Android Studio**
+- **GitHub** for version control
+- **GitHub Actions** for automated builds and testing
+
+---
+
+## 📚 Report Summary
+
+- **Purpose:** To create a history-learning app using a flashcard quiz system.
+- **Design Considerations:** The UI is built for simplicity, engagement, and visual appeal using historical/classical themes.
+- **GitHub Utilization:** The code is pushed and version-controlled via GitHub. Commits are descriptive and meaningful.
+- **GitHub Actions:** Implemented to automate builds and testing across machines using the provided `build.yml` workflow.
+
+---
+
+## 🔧 Getting Started
 
 ### Prerequisites
-- Android Studio (for Android development)
-- Kotlin 
+- Android Studio (latest version)
+- Kotlin plugin
 
 ### Installation
 1. Clone the repository:
