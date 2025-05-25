@@ -74,7 +74,7 @@ The video walks through:
 - Answering questions
 - Navigating between screens
 - Reviewing final results
-- Commentary on design, GitHub, and logic decisions
+
 
 ---
 
@@ -96,13 +96,4 @@ The video walks through:
 
 ---
 
-## 🔧 Getting Started
 
-### Prerequisites
-- Android Studio (latest version)
-- Kotlin plugin
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/history-flash.git
