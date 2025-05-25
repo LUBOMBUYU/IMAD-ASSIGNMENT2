@@ -19,7 +19,7 @@
 - **True** and **False** buttons for user input.
 - **Next** button and a sound toggle icon.
 - Background features classical decorative imagery.
-- A **countdown timer** is planned for added challenge.
+- A **countdown timer** is added challenge.
 
 ![Flashcard Screen](https://github.com/user-attachments/assets/0135c075-d702-46a1-ac80-e2bffbf44799)
 
