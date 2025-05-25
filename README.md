@@ -44,11 +44,11 @@
 - ✅ Review screen with correct answers
 - ✅ Vibrant themed UI (history/classical)
 - ✅ Sound toggle (mute/unmute)
-- 🔜 **Planned**: Countdown timer per question
+- ✅  Countdown timer per question
 
 ---
 
-## ⏳ Planned Feature
+## ⏳ Addtional Features
 
 ### Countdown Timer
 Once the user presses the **Start** button, a countdown will begin to prepare the user for the first flashcard. This feature will enhance the user experience by adding time-based pressure.
@@ -61,7 +61,7 @@ Once the user presses the **Start** button, a countdown will begin to prepare th
 
 🔗 [https://github.com/LUBOMBUYU/IMAD_ASSIGNMENT2](https://github.com/LUBOMBUYU/IMAD-ASSIGNMENT2.git)
 
-> 💡 *Please ensure this link is active and public or unlisted (not private) before submission.*
+
 
 ---
 
