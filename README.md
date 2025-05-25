@@ -59,7 +59,7 @@ Once the user presses the **Start** button, a countdown will begin to prepare th
 
 ## 📁 GitHub Repository
 
-🔗 [https://github.com/yourusername/history-flash](https://github.com/yourusername/history-flash)
+🔗 [https://github.com/LUBOMBUYU/IMAD_ASSIGNMENT2](https://github.com/LUBOMBUYU/IMAD-ASSIGNMENT2.git)
 
 > 💡 *Please ensure this link is active and public or unlisted (not private) before submission.*
 
