@@ -31,7 +31,7 @@ class ScoreActivity : AppCompatActivity() {
         val total = intent.getIntExtra("total", 0)     // Total questions
         val percentage = if (total > 0) (correct * 100) / total else 0 // Calculate percentage score
 
-        // Bind all TextView and Button elements from the layout
+        // Declare all variables
         val tvFinalScore = findViewById<TextView>(R.id.tvFinalScore)
         val tvPercentage = findViewById<TextView>(R.id.tvPercentage)
         val tvFeedback = findViewById<TextView>(R.id.tvFeedback)
@@ -49,6 +49,7 @@ class ScoreActivity : AppCompatActivity() {
             percentage >= 50 -> "Good effort, but review your mistakes."      // 50%–79%
             else -> "Keep practicing!"                                        // Below 50%
         }
+
         // Button to review answers for user
         val btnReview = findViewById<Button>(R.id.btnReview)
         btnReview.setOnClickListener {

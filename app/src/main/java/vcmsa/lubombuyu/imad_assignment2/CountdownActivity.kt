@@ -21,11 +21,8 @@ class CountdownActivity : AppCompatActivity() {
 
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_countdown)
-
         val root = window.decorView
         countdownText = findViewById(R.id.cdTxt1)
-
-
         ViewCompat.setOnApplyWindowInsetsListener(root) { v, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
