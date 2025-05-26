@@ -86,6 +86,55 @@ The video walks through:
 - **GitHub Actions** for automated builds and testing
 
 ---
+## 🖥️ GitHub Actions – Automatic Builds
+History Flash uses GitHub Actions to automatically build the app when you push code to the main branch or run it manually. This helps keep everything up to date and makes it easy to download the APK or AAB file without building it yourself.
+
+## ⚙️ What the Workflow Does
+The GitHub Actions workflow (build.yml) does the following steps:
+
+Starts when:
+
+You push code to the main branch
+
+You manually run it from the GitHub Actions tab
+
+Sets up the environment:
+
+Uses Java 17 (needed to build Android apps)
+
+Sets the current date and repository name for naming the files
+
+Build steps:
+
+Cleans the previous builds
+
+Runs unit tests to check if the code works correctly
+
+Builds:
+
+Debug APK (for testing)
+
+Release APK (for production)
+
+AAB (used for Play Store)
+
+Uploads the results:
+
+You can download the APK or AAB files directly from GitHub
+
+Each file is named with the date, app name, and type (debug/release)
+
+Example file name:
+📦 2025-05-26 - Frogobox ID - IMAD-ASSIGNMENT2 - APK(s) release generated
+
+✅ Why This Is Useful
+🔁 No need to build the app yourself — GitHub does it for you
+
+🧪 Runs tests to check if the app works correctly
+
+📦 Easily download ready-made APK and AAB files
+
+🛠️ Great for testing and sharing with others
 
 ## 📚 Report Summary
 
